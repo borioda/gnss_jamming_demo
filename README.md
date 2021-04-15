@@ -14,5 +14,5 @@ The material has been prepared as part of the Institute of Navigation (ION) webi
 
 Two Jupyter notebooks are part of the demo:
 
-- **AdaptiveNotchDemo:** demonstrate the working principles of the ANF. In particular, the impact of the *pole contraction factor*, $k_\alpha$, and of the *adaptation step*, $delta$ are analysed
+- **AdaptiveNotchDemo:** demonstrate the working principles of the ANF. In particular, the impact of the *pole contraction factor*, k_$\alpha$, and of the *adaptation step*, $\delta$ are analysed
 - **InteractiveJamDemo:** demonstrate the impact of five interference mitigation techniques on the Cross-Ambiguity Function (CAF). The impact of the blanking threshold is also investigated
