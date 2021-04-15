@@ -1,4 +1,4 @@
-# gnss_jamming_demo
+# GNSS Jamming Demo
 Demonstration of the effects of interference mitigation techniques on GNSS signal acquisition.
 
 In this repository, you will find the material used to demonstrate the impact of five **interference mitigation techniques** on GNSS signal acquisition.
