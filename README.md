@@ -14,5 +14,14 @@ The material has been prepared as part of the Institute of Navigation (ION) webi
 
 Two Jupyter notebooks are part of the demo:
 
-- **AdaptiveNotchDemo:** demonstrate the working principles of the ANF. In particular, the impact of the *pole contraction factor*, k_$\alpha$, and of the *adaptation step*, $\delta$ are analysed
+- **AdaptiveNotchDemo:** demonstrate the working principles of the ANF. In particular, the impact of the *pole contraction factor*, k<sub>&alpha;</sub>, and of the *adaptation step*, &delta; are analysed
 - **InteractiveJamDemo:** demonstrate the impact of five interference mitigation techniques on the Cross-Ambiguity Function (CAF). The impact of the blanking threshold is also investigated
+
+Three short datasets (50 ms each) are provided in the *data* filder to experiment with interference mitigation and GNSS signal acquisition.
+
+- **JammerData.bin**: GPS and Galileo signals affected by a sweept jamming signal with sweep range around 10 MHz. In this case, jamming can be effectively mitigated using frequency domain techniques
+- **JamData400.bin** and **JamData500.bin**: snapshots extracted from the first test (Test 1) described in our  [paper](https://onlinelibrary.wiley.com/doi/full/10.1002/navi.391). In this case, the jammer sweep frequency range is about 35 MHz. So the jamming signal periodically enters and exists the receiver band resulting into a series of pulses. In this case, jamming can be effectively mitigated using time domain approaches. "400" and "500" indicate the number of seconds from the start of Test 1.
+
+All datasets have been collected with a 10 MHz sampling frequency, IQ 8-bit sampling. GNSS signals in JamData400.bin and JamData500.bin are affected by a clock drift of about 9 kHz.
+
+ 
