@@ -12,4 +12,5 @@ The techniques considered are:
 
 The material has been prepared as part of the Institute of Navigation (ION) webinar ["GNSS interference mitigation: A measurement and position domain assessment"](https://www.ion.org/publications/webinars.cfm) associated to the corresponding [paper](https://onlinelibrary.wiley.com/doi/full/10.1002/navi.391), which is available open access.
 
-
+Two Jupyter Notebook are part of the demo:
+- 
