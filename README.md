@@ -24,4 +24,9 @@ Three short datasets (50 ms each) are provided in the *data* folder to experimen
 
 All datasets have been collected with a 10 MHz sampling frequency, IQ 8-bit sampling. GNSS signals in JamData400.bin and JamData500.bin are affected by a clock drift of about 9 kHz.
 
- 
+## Dependencies:
+In addition to standard python libraries such as numpy and scipy, you need to install the following libraries to run the notebooks:
+
+- [**ipyvolume**](https://github.com/maartenbreddels/ipyvolume): for 3D rendering
+- [**ipympl**](https://github.com/matplotlib/ipympl): for interactive matplotlib figures
+- [**ipywidgets**](https://ipywidgets.readthedocs.io/en/stable/)  
